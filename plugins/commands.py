@@ -25,7 +25,7 @@ async def start(client, message: pyrogram.types.Message):
 
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
-        InlineKeyboardButton('😸 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ 😸', url=f'https://t.me/Music_Gramam_Group') ] ,
+        InlineKeyboardButton('😸 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ 😸', url=f'https://t.me/ALPHA_RIPS') ] ,
       [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
@@ -71,7 +71,7 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) != 2:
 
         buttons = [[
-        InlineKeyboardButton('😸 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ 😸', url=f'https://t.me/Music_Gramam_Group') ] ,
+        InlineKeyboardButton('😸 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ 😸', url=f'https://t.me/ALPHA_RIPS') ] ,
       [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
@@ -121,7 +121,7 @@ async def start(client, message: pyrogram.types.Message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
 
         buttons = [[
-        InlineKeyboardButton('😸 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ 😸', url=f'https://t.me/Music_Gramam_Group') ] ,
+        InlineKeyboardButton('😸 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ 😸', url=f'https://t.me/ALPHA_RIPS') ] ,
       [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
